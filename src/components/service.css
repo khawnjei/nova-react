@@ -1,0 +1,93 @@
+.nova__services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: scroll;
+
+  background: var(--color-primary);
+}
+
+.nova__services-content {
+  margin-left: 166px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nova__services-content h3 {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nova__services-container {
+  display: flex;
+  gap: 36px;
+}
+
+.nova__services-image {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nova__services-image img {
+  width: 436px;
+  height: 356px;
+}
+
+.nova__services-image_heading {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 294px;
+}
+
+.nova__services-image_heading h4,
+.nova__services-image_heading h5 {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nova__services-image_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.nova__services-image_text p {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+
+  width: 435.5px;
+}
+
+.nova__services-book {
+  margin-top: 40px;
+}
+
+.nova__services-book p {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nova__services-book_slider {
+  width: 149px;
+  height: 8px;
+
+  background: #fff;
+}

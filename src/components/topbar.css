@@ -1,0 +1,84 @@
+.nova__topbar {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.nova__topbar_content {
+  display: flex;
+}
+
+.nova__topbar_content-logo {
+  padding-left: 166px;
+  display: flex;
+  align-items: center;
+}
+
+.nova__topbar_content-logo img {
+  width: 87px;
+  height: 35px;
+  border-radius: 0.3rem;
+}
+
+.nova__topbar_content-text {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+  padding-left: 2rem;
+}
+
+.nova__topbar_content-text p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.slider {
+  width: 1px;
+  height: 38px;
+  background: #a5a5a5;
+}
+
+.nova__topbar_content-buttons {
+  padding-left: 21px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.login {
+  border-radius: 8px;
+  background: var(--pink-fuscia-pink-fuscia-3, #ffc9e3);
+  border: none;
+  width: 132px;
+  height: 36px;
+  color: var(--pink-fuscia-pink-fuscia, #ee509c);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.signup {
+  border-radius: 8px;
+  background: var(--color-primary);
+  border: none;
+  width: 132px;
+  height: 36px;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sliderBottom {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background: #a5a5a5;
+
+}

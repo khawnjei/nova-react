@@ -1,0 +1,13 @@
+export { default as Logo } from "./logo.png";
+export { default as Svg } from "./svg.png";
+export { default as Cart } from "./shopping-cart.png";
+export { default as Vector } from "./Vector.png";
+export { default as Rectangle23 } from "./Rectangle23.png";
+export { default as Rectangle24 } from "./Rectangle24.png";
+export { default as Rectangle25 } from "./Rectangle25.png";
+export { default as Rectangle26 } from "./Rectangle26.png";
+export { default as Rectangle27 } from "./Rectangle27.png";
+export { default as Reviews1 } from "./Reviews1.png";
+export { default as Reviews2 } from "./Review2.png";
+export { default as Dots } from "./dots.png";
+export { default as Logo2 } from "./logolower.png";

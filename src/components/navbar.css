@@ -1,0 +1,76 @@
+.nova__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 53px;
+  background: var(--color-primary);
+
+  margin-top: 1rem;
+}
+
+.nova__navbar-links {
+  display: flex;
+  align-items: center;
+  padding-left: 288px;
+  gap: 48px;
+}
+
+.nova__navbar-links p,
+.nova__navbar a {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nova__navbar-button {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.nova__navbar-button button {
+  color: var(--White, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100px;
+  height: 53px;
+  border-radius: 8px;
+  background: var(--Black, #292929);
+  font-family: var(--font-family);
+
+  cursor: pointer;
+}
+
+.nova__navbar-svgs {
+  display: flex;
+  gap: 25px;
+}
+
+.svg {
+  width: 36px;
+  height: 36px;
+
+  cursor: pointer;
+}
+
+.cartBack {
+  display: flex;
+  width: 36px;
+  /* height: 36px; */
+  background: #fff;
+
+  border-radius: 50px;
+}
+
+.cart {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+ 
+  cursor: pointer;
+}
