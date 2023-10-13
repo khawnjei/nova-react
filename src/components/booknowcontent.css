@@ -1,0 +1,87 @@
+.book-container {
+  margin: 64px 166px 69px 166px;
+  max-width: 1728px;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/bookback.png");
+  width: 1396px;
+  height: 512px;
+  margin-bottom: 34px;
+  cursor: pointer;
+}
+
+.image-text h1 {
+  color: #fff;
+
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.image-text p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.book-select {
+  display: flex;
+  background: var(--pink-fuscia-pink-fuscia-3, #ffc9e3);
+  border-radius: 16px;
+}
+
+.navigate-container h4 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navigate-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+  width: 212px;
+  height: 64px;
+}
+
+.book-input {
+  border-radius: 16px;
+  background: var(--pink-fuscia-pink-fuscia-4, #ffeff7);
+  max-width: 1396px;
+}
+
+.book-input h3 {
+  padding-top: 36px;
+  color: #171d1c;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 24px;
+  padding-left: 35px;
+}
+
+.next {
+  margin: 35px 40px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next p {
+  color: var(--gray-gray, #3d3d3d);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

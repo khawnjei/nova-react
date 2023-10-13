@@ -1,0 +1,22 @@
+.nova__products {
+  max-width: 1728px;
+  margin: 24px;
+  margin-left: 166px;
+  margin-right: 166px;
+  
+}
+
+.nova__products h2 {
+  color: #171d1c;
+
+font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.nova__products-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}

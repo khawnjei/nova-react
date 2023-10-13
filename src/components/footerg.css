@@ -1,0 +1,122 @@
+.oi {
+  background: var(--color-primary);
+  min-height: 345px;
+  max-width: 1728px;
+  /* margin-top: 132px; */
+}
+
+.nova__footerg {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.nova__footerg-heading {
+  margin-top: 82px;
+}
+
+.nova__footerg-heading h2 {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+  width: 388px;
+  margin-top: 29px;
+}
+
+.nova__footerg-heading p {
+  color: var(--White, #fff);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 19px;
+  width: 340px;
+}
+
+/* .nova__footerg-links {
+    display: flex;
+    flex-direction: column;
+} */
+
+.nova__footerg-links h4 {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 105.469%;
+  letter-spacing: 2.25px;
+
+  margin-bottom: 32px;
+}
+
+.nova__footerg-links p {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 146.469%;
+  margin-bottom: 8px;
+
+  cursor: pointer;
+}
+
+.nova__footerg-social h4 {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 105.469%;
+  letter-spacing: 2.25px;
+
+  margin-bottom: 32px;
+}
+
+.nova__footerg-social p {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 146.469%; /* 27.829px */
+  cursor: pointer;
+
+  margin-bottom: 8px;
+
+}
+
+.nova__footerg-contact h4 {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 105.469%; /* 26.367px */
+  letter-spacing: 2.25px;
+
+  margin-bottom: 32px;
+}
+
+.nova__footerg-contact p {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 146.469%;
+  width: 261px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+}
+
+.nova__footerg-contact strong {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 146.469%; /* 33.688px */
+}
+
+.nova__footerg-slider {
+  display: flex;
+  justify-content: center;
+}

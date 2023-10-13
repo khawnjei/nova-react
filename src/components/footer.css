@@ -3,14 +3,13 @@
   background: var(--color-primary);
   /* overflow: initial; */
   margin-top: 64px;
+  flex-direction: column;
 }
 
 .nova__footer-container {
   display: flex;
   margin-top: 65px;
   margin-left: 166px;
-
-  width: 100%;
 }
 
 .nova__footer-heading h1 {
@@ -44,11 +43,8 @@
 }
 
 .nova__footer-input {
-  width: 100%;
   display: flex;
   flex-direction: column;
-margin-left: 76px;
-
   gap: 45px;
 }
 
@@ -138,16 +134,19 @@ margin-left: 76px;
 }
 
 .nova__footer-lower {
-  margin-top: 379px;
+  margin-top: 250px;
+  margin-left: 166px;
 }
 
 .nova__footer-lower {
   display: flex;
+  width: 1450px;
 }
 
 .nova__footer-lower_container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .nova__footer-lower_logo {
@@ -198,7 +197,7 @@ margin-left: 76px;
   font-family: var(--font-family);
   font-size: 25px;
   font-weight: 700;
-  line-height: 105.469%; /* 26.367px */
+  line-height: 105.469%;
   letter-spacing: 2.25px;
 }
 .nova__footer-lower_links-container {
@@ -273,12 +272,94 @@ margin-left: 76px;
   line-height: 146.469%; /* 27.829px */
 }
 
-.nova__footer-slider {
+/* .nova__footer-slider {
   width: 876px;
   height: 1px;
 
-  background: #FFF;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.nova__footer-line {
+  display: flex;
+  justify-content: center;
+  margin-left: 166px;
 }
+.line-1 hr {
+  margin-top: 49px;
+
+  background: #fff;
+  width: 876px;
+  height: 1px;
+  border: 0;
+}
+.line-pra {
+  color: var(--White, #fff);
+  text-align: center;
+  /* Paragraph/Regular */
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+
+  margin-top: 21px;
+  margin-bottom: 40px;
+}
+
+.emaill {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.emaill strong {
+  color: var(--White, #fff);
+  font-family: Hellix;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 146.469%; /* 33.688px */
+}
+.emaill p {
+  margin-top: 5px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.phone strong {
+  color: var(--White, #fff);
+  font-family: Hellix;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 146.469%; /* 33.688px */
+}
+
+.phone p{
+  margin-top: 5px;
+}
+
+.address{
+   display: flex;
+  align-items: start;
+  gap: 5px;
+}
+
+.address strong {
+  color: var(--White, #fff);
+  font-family: Hellix;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 146.469%; /* 33.688px */
+}
+
+.address p{
+  margin-top: 5px;
+}
+

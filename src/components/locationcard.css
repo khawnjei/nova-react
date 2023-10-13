@@ -1,0 +1,48 @@
+.nova__location-content {
+  text-align: center;
+
+  margin: 36px 32px;
+  padding-bottom: 34px;
+  padding: 16px 14px;
+  border-radius: 17px;
+  background: var(--gray-gray-variant-4, #efefef);
+  width: 303px;
+}
+
+.nova__location-content img{
+  cursor: pointer;
+}
+
+.nova__location-content h4 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 14px;
+}
+
+.nova__location-content p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 7px;
+  width: 275px;
+  margin-bottom: 15px;
+}
+
+.nova__location-content button {color: var(--White, #FFF);
+background: var(--color-primary);
+font-family: var(--font-family);
+font-size: 16px;
+font-weight: 400;
+
+width: 143.39px;
+height: 50px;
+margin-top: 4px;
+border: none;
+border-radius: 50%;
+cursor: pointer;
+}

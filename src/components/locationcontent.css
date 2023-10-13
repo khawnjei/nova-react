@@ -1,0 +1,25 @@
+.nova__location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1728px;
+
+  margin-top: 36px;
+  margin-bottom: 54px;
+}
+
+.nova__location h2 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.nova__location-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 100px;
+}

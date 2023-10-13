@@ -1,0 +1,112 @@
+.nova__about {
+  display: flex;
+  justify-content: center;
+  max-width: 1728px;
+  margin-bottom: 109px;
+}
+
+.nova__about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nova__about-heading {
+  margin-top: 44px;
+}
+
+.nova__about-heading h1 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.nova__about-heading h2 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+
+  margin-left: 335px;
+  margin-top: 26px;
+}
+
+.nova__about-difference_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nova__about-container img{
+  cursor: pointer;
+}
+
+.nova__about-difference_percentage {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 26px;
+}
+
+.nova__about-difference_percentage h5 {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 71px;
+  font-weight: 700;
+}
+
+.nova__about-difference_percentage p {
+  color: var(--Black, #292929);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+
+  width: 10px;
+  margin-top: 5px;
+}
+
+.nova__about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.nova__about-content_container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 52px;
+}
+
+
+.nova__about-content_text h3 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.nova__about-content_text p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  width: 427px;
+}
+
+.nova__about-content_text .para-4 {
+  margin-top: 4px;
+}
+
+.nova__about-content_text span {
+  color: var(--color-primary);
+
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}

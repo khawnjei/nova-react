@@ -1,0 +1,86 @@
+.reviews-content {
+  max-width: 1728px;
+  margin-top: 11px;
+  margin-bottom: 69.88px;
+}
+
+.reviews-content img {
+  width: 100%;
+  height: 591px;
+  cursor: pointer;
+}
+
+.reviews-main {
+  margin: 35px 166px 37px 166px;
+}
+
+.reviews-divider {
+  width: 100%;
+  height: 1px;
+  opacity: 0.5;
+  background: #3d3d3d;
+  margin-bottom: 24px;
+}
+
+.write-review h4 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.reviews-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.write-review input {
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background: var(--gray-gray-variant-4, #efefef);
+  padding: 12px 0 12px 22px;
+  color: var(--gray-gray, #3d3d3d);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+
+  outline: none;
+  border: none;
+}
+
+.write-review textarea {
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 0 68px 22px;
+  background: var(--gray-gray-variant-4, #efefef);
+  width: 100%;
+  height: 104px;
+  border-radius: 16px;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+
+  resize: none;
+}
+
+.write-review button {
+  width: 150px;
+  height: 60px;
+  background: var(--color-primary);
+  margin-top: 58px;
+  border: none;
+  border-radius: 50% 50% 50% 50%;
+
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}

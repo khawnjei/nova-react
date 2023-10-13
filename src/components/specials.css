@@ -1,4 +1,4 @@
-.nova__specials{
+.nova__specials {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: row;
   gap: 253px;
+
 }
 
 .nova__services-image_heading h4,
@@ -54,6 +55,13 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.nova__services-image_heading h4 {
+}
+
+.nova__services-image_heading h5 {
+  width: 51px;
 }
 
 .nova__services-image_text {

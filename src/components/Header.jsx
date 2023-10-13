@@ -4,53 +4,43 @@ import { Vector } from "../assets/import";
 
 const Header = () => {
   return (
-    <div className="nova__header">
-      <div className="nova__header-heading">
-        <h1>
-          Be Bold! Be <span>Beautiful!</span>
-        </h1>
-        <div className="nova__header-heading_text">
-          <p>
-            We aim to bring the best out of you - your bold and <br /> beautiful
-            self. Trust us once and it will be for all. <br /> Nothing matters
-            to us more when it comes to your <br /> care. With us, you will be
-            sexier and ever confident like <br />
-            never before! We can't wait to see you!
-          </p>
-        </div>
-        <div className="nova__header-difference">
-          <div className="nova__header-difference-heading">
-            <h3>The NOVA Difference</h3>
+    <>
+      <header className="nova__header">
+        <div className="nova__header-container">
+          <div className="nova__header-heading">
+            <h1>
+              Be Bold! Be <span>Beautiful!</span>
+            </h1>
+            <p>
+              We aim to bring the best out of you - your bold and beautiful
+              self. Trust us once and it will be for all. Nothing matters to us
+              more when it comes to your care. With us, you will be sexier and
+              ever confident like never before! We can't wait to see you!
+            </p>
+            <h3>The Nova Difference</h3>
           </div>
-          <div className="nova__header-difference-container">
+          <div className="nova__header-difference_container">
             <div className="nova__header-difference_percentage">
-              <h3>99%</h3>
-              <p>
-                Overall <br />
-                Satisfaction
-              </p>
+              <h5>99%</h5>
+              <p>Overall Satisfaction</p>
             </div>
             <div className="nova__header-difference_percentage">
-              <h3>99%</h3>
+              <h5>99%</h5>
               <p>Quality</p>
             </div>
             <div className="nova__header-difference_percentage">
-              <h3>99%</h3>
+              <h5>99%</h5>
               <p>Enviornment</p>
             </div>
             <div className="nova__header-difference_percentage">
-              <h3>95%</h3>
-              <p>
-                Repeat <br /> Coustomers
-              </p>
+              <h5>95%</h5>
+              <p>Repeat Coustomers</p>
             </div>
           </div>
         </div>
-      </div>
-      <div className="nova__header-image">
-        <img src={Vector} alt="a woman"/>
-      </div>
-    </div>
+        <div className="nova__header-image"><img src={Vector} alt="a woman" /></div>
+      </header>
+    </>
   );
 };
 

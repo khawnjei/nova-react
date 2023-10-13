@@ -1,9 +1,17 @@
 .nova__header {
+  height: 610px;
+  margin-left: 166px;
   display: flex;
 }
 
-.nova__header-heading {
-  margin-left: 166px;
+.nova__header-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* gap: 390px; */
+  /* height: 100%; */
+  max-width: 1728px;
   margin-top: 67px;
 }
 
@@ -13,75 +21,68 @@
   font-family: var(--font-family);
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .nova__header-heading span {
   color: var(--color-primary);
-
-  font-size: 48px;
-  font-weight: 700;
 }
 
-.nova__header-heading_text {
-  margin-top: 30px;
-}
-
-.nova__header-heading_text p {
+.nova__header-heading p {
   color: var(--Black, #292929);
 
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
+  width: 540px;
+  margin-bottom: 60px;
 }
 
-.nova__header-difference {
-  margin-top: 60px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.nova__header-difference-heading h3 {
+.nova__header-heading h3 {
   color: var(--color-primary);
 
   font-family: var(--font-family);
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 23px;
 }
 
-.nova__header-difference-container {
+.nova__header-difference_container {
   display: flex;
-  flex-direction: row;
   gap: 65px;
 }
 
-.nova__header-difference_percentage {
-  margin-top: 23px;
-}
-
-.nova__header-difference_percentage h3 {
+.nova__header-difference_percentage h5 {
   color: var(--Black, #292929);
   font-family: var(--font-family);
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 6px;
 }
 
 .nova__header-difference_percentage p {
   color: var(--Black, #292929);
+  text-align: center;
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
   line-height: 109.5%;
 
-  margin-top: 6px;
+  width: 10px;
 }
 
-.nova__header-image {
-  margin-left: 191px;
-  margin-top: 55px;
+.nova__header-container img {
+  width: 441px;
+  height: 491px;
 }
 
 .nova__header-image img {
   width: 441px;
   height: 491px;
+}
+
+.nova__header-image {
+  display: flex;
+  margin-left: 390px;
+  align-items: center;
 }

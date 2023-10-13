@@ -1,0 +1,22 @@
+.nova-special {
+  max-width: 1728px;
+  margin-left: 166px;
+  margin-right: 166px;
+  margin-top: 28px;
+  margin-bottom: 62px;
+  
+}
+
+.nova-special h2 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.nova-special_container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

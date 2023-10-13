@@ -1,0 +1,62 @@
+.nova__services-section {
+  max-width: 1728px;
+
+  margin-left: 166px;
+  margin-bottom: 30px;
+}
+
+.nova__services-section h2 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.nova__services-navigate {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  /* margin-bottom: 31px; */
+}
+
+
+
+.nova_geneder-select-container{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+.nova_geneder-select-container h3{
+ color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nova__gender-strip{
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-primary);
+
+}
+
+.nova__services-navigate h4 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nova__services-main_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 100px;
+
+}

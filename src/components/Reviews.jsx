@@ -4,7 +4,7 @@ import { Dots, Reviews1, Reviews2 } from "../assets/import";
 
 const Reviews = () => {
   return (
-    <div className="oi">
+    <section>
       <div className="nova__reviews">
         <div className="nova__reviews-content">
           <h1>Reviews</h1>
@@ -62,10 +62,10 @@ const Reviews = () => {
           </div>
         </div>
       </div>
-      <div className="nova__reviews-review_image">
+      <div className="image">
         <img src={Dots} alt="dots" />
       </div>
-    </div>
+    </section>
   );
 };
 

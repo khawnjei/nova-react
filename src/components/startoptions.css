@@ -1,0 +1,17 @@
+.start-option {
+  height: 48px;
+  border-radius: 16px;
+  background: var(--White, #fff);
+  margin-bottom: 16px;
+  margin-left: 57px;
+  margin-right: 29px;
+}
+
+.start-option p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 0 12px 26px;
+}
