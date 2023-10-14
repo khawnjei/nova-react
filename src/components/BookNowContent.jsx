@@ -1,13 +1,28 @@
 import React, { useState } from "react";
 import "./booknowcontent.css";
 import StartOptions from "./StartOptions";
-// import { BookBack } from '../assets/import';
+import ServiceOp from "./ServiceOp";
+import StartOp from "./StartOp";
 
 const BookNowContent = () => {
   const [select, setSelect] = useState({ id: 1 });
-  const [next, setNext] = useState(1);
 
-  const increament = () => {};
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const incrementPage = () => {
+    setCurrentPage((prevPage) => prevPage + 1);
+  };
+
+  const decrementPage = () => {
+    setCurrentPage((prevPage) => prevPage - 1);
+  };
+
+  const pages = [
+    <>
+      <StartOp />
+      <ServiceOp />
+    </>,
+  ];
 
   const optionsArr = [
     {
@@ -36,49 +51,6 @@ const BookNowContent = () => {
     },
   ];
 
-  const inputData = [
-    {
-      id: 1,
-      text: "Face Threading ( BROWS SERVICE IS WALK-IN FIRST COME BASES )",
-    },
-    {
-      id: 2,
-      text: "Face Wax",
-    },
-    {
-      id: 3,
-      text: "Tint",
-    },
-    {
-      id: 4,
-      text: "Waxing",
-    },
-    {
-      id: 5,
-      text: "Sugaring",
-    },
-    {
-      id: 6,
-      text: "Mens Waxing",
-    },
-    {
-      id: 7,
-      text: "Mens Sugaring",
-    },
-    {
-      id: 8,
-      text: "Facial",
-    },
-    {
-      id: 9,
-      text: "Heena Tattoos",
-    },
-    {
-      id: 10,
-      text: "VAJACIAL",
-    },
-  ];
-
   return (
     <div className="book-container">
       <div className="image-text">
@@ -89,7 +61,7 @@ const BookNowContent = () => {
         {optionsArr.map((item) => (
           <div
             className="navigate-container"
-            onClick={()=> setSelect(item)}
+            onClick={() => setSelect(item)}
             style={{ background: item.id <= select.id ? "#EE509C" : "#FFC9E3" }}
             key={item.id}
           >
@@ -103,15 +75,16 @@ const BookNowContent = () => {
           </div>
         ))}
       </div>
-      <div className="book-input">
-        <h3>What is your appointment for?</h3>
-        <div className="book-input_container">
-          {inputData.map((item) => (
-            <StartOptions item={item} key={item.id} />
-          ))}
-        </div>
-        <div className="next" onClick={() => setSelect()}>
-          <p>Next</p>
+      <div className="book-main">
+        {pages[currentPage - 1]}
+        {/* {pages[currentPage + 1]} */}
+        <div className="next">
+          <p onClick={incrementPage} disabled={currentPage === pages.length}>
+            Next {">"}
+          </p>
+          <p onClick={decrementPage} disabled={currentPage === 1}>
+            Previous{">"}
+          </p>
         </div>
       </div>
     </div>
