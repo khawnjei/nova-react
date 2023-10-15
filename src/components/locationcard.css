@@ -9,7 +9,7 @@
   width: 303px;
 }
 
-.nova__location-content img{
+.nova__location-content img {
   cursor: pointer;
 }
 
@@ -33,16 +33,17 @@
   margin-bottom: 15px;
 }
 
-.nova__location-content button {color: var(--White, #FFF);
-background: var(--color-primary);
-font-family: var(--font-family);
-font-size: 16px;
-font-weight: 400;
+.nova__location-content button {
+  color: var(--White, #fff);
+  background: var(--color-primary);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
 
-width: 143.39px;
-height: 50px;
-margin-top: 4px;
-border: none;
-border-radius: 50%;
-cursor: pointer;
+  width: 143.39px;
+  height: 50px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }

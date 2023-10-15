@@ -48,11 +48,6 @@
   gap: 45px;
 }
 
-/* .nova__footer-input {
-  display: flex;
-  padding-bottom: 10px;
-  gap: 45px;
-} */
 
 .name {
   outline: none;
@@ -271,16 +266,6 @@
   font-weight: 400;
   line-height: 146.469%; /* 27.829px */
 }
-
-/* .nova__footer-slider {
-  width: 876px;
-  height: 1px;
-
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .nova__footer-line {
   display: flex;

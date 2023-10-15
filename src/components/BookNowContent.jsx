@@ -3,6 +3,9 @@ import "./booknowcontent.css";
 import StartOptions from "./StartOptions";
 import ServiceOp from "./ServiceOp";
 import StartOp from "./StartOp";
+import StaffOp from "./StaffOp";
+import DateOp from "./DateOp";
+import MyInfo from "./MyInfo";
 
 const BookNowContent = () => {
   const [select, setSelect] = useState({ id: 1 });
@@ -19,8 +22,11 @@ const BookNowContent = () => {
 
   const pages = [
     <>
-      <StartOp />
-      <ServiceOp />
+      {/* <StartOp /> */}
+      {/* <ServiceOp /> */}
+      {/* <StaffOp /> */}
+      {/* <DateOp /> */}
+      <MyInfo/>
     </>,
   ];
 
@@ -76,15 +82,9 @@ const BookNowContent = () => {
         ))}
       </div>
       <div className="book-main">
-        {pages[currentPage - 1]}
-        {/* {pages[currentPage + 1]} */}
+        <MyInfo/>
         <div className="next">
-          <p onClick={incrementPage} disabled={currentPage === pages.length}>
-            Next {">"}
-          </p>
-          <p onClick={decrementPage} disabled={currentPage === 1}>
-            Previous{">"}
-          </p>
+          <p>Next {">"}</p>
         </div>
       </div>
     </div>

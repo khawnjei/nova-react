@@ -1,0 +1,8 @@
+.nova__servicesop h3 {
+  padding: 36px 0 24px 25px;
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+}

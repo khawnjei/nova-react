@@ -1,0 +1,154 @@
+.nova__myinfo h3 {
+  padding: 36px 0 16px 35px;
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.input-name-section {
+  margin-left: 38px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.input-container label {
+  color: var(--color-primary);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.input-container input {
+  display: block;
+
+  width: 651px;
+  height: 36px;
+  margin-top: 3px;
+  color: var(--gray-gray-variant-2, #a5a5a5);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2px 0 2px 17px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+  outline: none;
+}
+.input-email-section #info-number{
+    appearance: none;
+}
+
+.input-email-section .info-number::-webkit-inner-spin-button,
+.no-spin-buttons::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.input-email-section {
+  display: flex;
+  gap: 24px;
+}
+
+
+
+.input-address {
+  margin-left: 38px;
+}
+
+.input-address label {
+  color: var(--color-primary);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.input-address input {
+  display: block;
+
+  width: 1326px;
+  height: 36px;
+  margin-top: 3px;
+  color: var(--gray-gray-variant-2, #a5a5a5);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2px 0 2px 17px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+  outline: none;
+}
+
+.message-input {
+  margin: 36px 0 0 38px;
+}
+
+.message-input label {
+  color: var(--color-primary);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.message-input textarea {
+  display: block;
+
+  width: 1326px;
+  height: 100px;
+  margin-top: 3px;
+  color: var(--gray-gray-variant-2, #a5a5a5);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 0 0px 17px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+  outline: none;
+  resize: none;
+}
+
+.message-input p {
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.myinfo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.myinfo-button button {
+  width: 173.61px;
+  height: 50.021px;
+
+  color: #FFF;
+
+font-family: var(--font-family);
+font-size: 20px;
+font-weight: 400;
+background: var(--color-primary);
+border: none;
+border-radius: 50%;
+cursor: pointer;
+}
+
