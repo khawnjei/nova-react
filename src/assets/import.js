@@ -33,4 +33,5 @@ export { default as Product4 } from "./product4.png";
 export { default as Product5 } from "./product5.png";
 export { default as Reviewbg } from "./reviewbackg.png";
 export { default as BookBack } from "./bookback.png";
+export { default as Popup } from "./popup.png";
 
