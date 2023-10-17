@@ -33,7 +33,7 @@ const NavBar = () => {
             <a href="#reviews">Reviews</a>
           </p>
           <button onClick={()=>navigate("/book")} className="book">Book Now</button>
-          <p>
+          <p onClick={() => navigate("/contact")}>
             <a href="#contact">Contact Us</a>
           </p>
         </div>

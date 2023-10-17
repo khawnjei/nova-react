@@ -62,3 +62,18 @@
   width: 1396px;
 
 }
+
+.book-main .next {
+  display: flex;
+  justify-content: end;
+
+}
+
+.book-main .next p{
+  color: var(--gray-gray, #3D3D3D);
+font-family: var(--font-family);
+font-size: 24px;
+font-weight: 400;
+  padding: 30px 29px  16px 0;
+cursor: pointer;
+}

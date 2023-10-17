@@ -8,6 +8,8 @@ import SpecialsP from '../pages/SpecialsP';
 import Products from '../pages/Products';
 import ReviewsP from "../pages/ReviewsP";
 import BookP from '../pages/BookP';
+import Contact from "../pages/Contact";
+import Checkout from "../pages/Checkout";
 
 const NavigationMain = () => {
   return (
@@ -20,6 +22,8 @@ const NavigationMain = () => {
       <Route path="/products" element={<Products />} />
       <Route path="/reviews" element={<ReviewsP />} />
       <Route path="/book" element={<BookP />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/checkout" element={<Checkout />} />
     </Routes>
   );
 }

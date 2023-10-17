@@ -1,34 +1,13 @@
 import React, { useState } from "react";
 import "./booknowcontent.css";
-import StartOptions from "./StartOptions";
 import ServiceOp from "./ServiceOp";
+import MyInfo from "./MyInfo";
 import StartOp from "./StartOp";
 import StaffOp from "./StaffOp";
 import DateOp from "./DateOp";
-import MyInfo from "./MyInfo";
 
 const BookNowContent = () => {
   const [select, setSelect] = useState({ id: 1 });
-
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const incrementPage = () => {
-    setCurrentPage((prevPage) => prevPage + 1);
-  };
-
-  const decrementPage = () => {
-    setCurrentPage((prevPage) => prevPage - 1);
-  };
-
-  const pages = [
-    <>
-      {/* <StartOp /> */}
-      {/* <ServiceOp /> */}
-      {/* <StaffOp /> */}
-      {/* <DateOp /> */}
-      <MyInfo/>
-    </>,
-  ];
 
   const optionsArr = [
     {
@@ -82,7 +61,17 @@ const BookNowContent = () => {
         ))}
       </div>
       <div className="book-main">
-        <MyInfo/>
+        {select.id === 1 ? (
+          <StartOp />
+        ) : select.id === 2 ? (
+          <ServiceOp />
+        ) : select.id === 3 ? (
+          <StaffOp />
+        ) : select.id === 4 ? (
+          <DateOp />
+        ) : (
+          <MyInfo />
+        )}
         <div className="next">
           <p>Next {">"}</p>
         </div>

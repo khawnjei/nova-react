@@ -1,0 +1,80 @@
+.contact-section {
+  /* width: 1728px; */
+}
+
+.contact-section h3 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+  padding: 27px 0 49px 166px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cotact-input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cotact-input label {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.cotact-input input {
+  color: #3f3f3f;
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  width: 560px;
+  height: 44px;
+  padding: 2px 0 0 11px;
+  border-radius: 5px;
+  border: 2px solid var(--color-primary);
+  outline: none;
+  margin-bottom: 24px;
+}
+
+.cotact-input textarea {
+  color: #3f3f3f;
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 21px 0 0 19px;
+  resize: none;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid var(--color-primary);
+  margin-bottom: 52px;
+}
+
+.contact-btn {
+    margin-bottom: 69px;
+}
+
+.contact-btn button {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 105.969%; /* 26.492px */
+  width: 206.958px;
+  height: 64.69px;
+background: var(--color-primary);
+border: none;
+border-radius: 50%;
+cursor: pointer;
+}

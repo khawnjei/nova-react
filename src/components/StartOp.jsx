@@ -1,10 +1,9 @@
-import React from "react";
-// import { useState } from "react";
+import React, { useState } from "react";
 import "./startop.css";
-import StartOptions from "./StartOptions";
-// import ServiceOp from "./ServiceOp";
+// import StartOptions from "./StartOptions";
 
 const StartOp = () => {
+  const [select, setSelect] = useState(false);
   const inputData = [
     {
       id: 1,
@@ -52,7 +51,16 @@ const StartOp = () => {
       <h3>What is your appointment for?</h3>
       <div className="book-input_container">
         {inputData.map((item) => (
-          <StartOptions item={item} key={item.id} />
+          <div
+            className="start-option"
+            onClick={() => setSelect(item)}
+            style={{ background: item.id === select.id ? "#EE509C" : "#fff" }}
+            key={item.id}
+          >
+            <p style={{ color: item.id === select.id ? "#fff" : "#292929" }}>
+              {item.text}
+            </p>
+          </div>
         ))}
       </div>
     </div>
