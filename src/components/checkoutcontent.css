@@ -1,0 +1,112 @@
+.nova__checkout {
+  margin: 0 0 77px 166px;
+  /* width: 1728px; */
+}
+
+.nova__checkout h2 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 32px;
+}
+
+.service-main {
+  max-width: 1396px;
+  /* height: 1226px; */
+  border-radius: 16px;
+  background: var(--pink-fuscia-pink-fuscia-4, #ffeff7);
+  margin-top: 39px;
+  padding-right: 70px;
+}
+
+.service-cards h4 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding: 26px 0 19px 35px;
+}
+
+.products-card h4 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 0 5px 35px;
+}
+
+.checkout-input {
+  margin: 25px 0 0 54px;
+}
+
+.checkout-input-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout-input-text p {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nova__checkout h5 {
+  color: var(--gray-gray-variant-2, #a5a5a5);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.checkout-input .checkout-divider {
+  width: 100%;
+  height: 1px;
+  background: #d7d7d7;
+  margin-top: 5px;
+}
+
+.checkout-final {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 18px 0 0 54px;
+}
+
+.checkout-final p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.checkout-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+.checkout-btn button {
+  color: #fff;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  width: 213.389px;
+  height: 68.565px;
+  background: var(--color-primary);
+  outline: none;
+  border: none;
+  border-radius: 70%;
+  cursor: pointer;
+  margin-bottom: 39px;
+}
+

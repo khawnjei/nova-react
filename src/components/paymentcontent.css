@@ -1,0 +1,119 @@
+.payment {
+  margin: 0 166px 96px 166px;
+  max-width: 1728px;
+}
+
+.payment h2 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+  padding: 44px 0 54px 0;
+}
+
+.payment-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-option h4 {
+  color: #171d1c;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 36px;
+}
+
+.payment-card {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  margin-bottom: 36px;
+}
+.payment-card img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.payment-card p {
+  color: #3f3f3f;
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.option-divider {
+  width: 1px;
+  height: 589px;
+  background: #a5a5a5;
+}
+
+.payment-input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-input label {
+  color: var(--color-primary);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.payment-input input {
+  width: 560px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+  margin-bottom: 34px;
+
+  color: var(--gray-gray-variant-2, #a5a5a5);
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  padding: 7px 0 8px 17px;
+}
+
+.date-container {
+  display: flex;
+  gap: 22px;
+}
+
+.date input {
+  width: 269px;
+  height: 36px;
+}
+
+.CVV input {
+  width: 269px;
+}
+
+.payment-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 73px;
+}
+
+.payment-btn button {
+  width: 182.61px;
+  height: 60.021px;
+  color: #fff;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  background: var(--color-primary);
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}

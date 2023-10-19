@@ -1,0 +1,98 @@
+.service-card_container{
+    padding-left: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+}
+
+.service-card img {
+  width: 104px;
+  height: 104px;
+  cursor: pointer;
+}
+
+.service-text p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 12px;
+
+}
+
+.date-container {
+  display: flex;
+  gap: 68px;
+}
+
+.checkout-date p,
+.checkout-timing p {
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.checkout-date img {
+  width: 24px;
+  height: 24px;
+}
+
+.checkout-date {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.checkout-timing {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.checkout-timing img {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-price input {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-price label {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.checkbox-price p {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 13.196px;
+  font-weight: 400;
+
+  border-radius: 13.196px;
+  background: #9f9399;
+  width: 84px;
+  height: auto;
+  padding: 6.598px 6.598px 6.598px 20px;
+  margin-top: 14px;
+}
+
+.divider {
+  width: 1288px;
+  height: 1px;
+  background: #d7d7d7;
+  margin-bottom: 35px;
+  margin-left: 54px;
+}

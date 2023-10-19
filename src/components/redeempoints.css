@@ -1,0 +1,40 @@
+.redeem-points {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 23px 0 28px 54px;
+}
+
+.redeem-points h4 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.points-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+.points-check input {
+  width: 24px;
+  height: 24px;
+}
+
+.points-check p {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.redeem-divider{
+    width: 1270px;
+    height: 1px;
+    background: #D7D7D7;
+    margin-left: 54px;
+}

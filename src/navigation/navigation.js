@@ -10,6 +10,7 @@ import ReviewsP from "../pages/ReviewsP";
 import BookP from '../pages/BookP';
 import Contact from "../pages/Contact";
 import Checkout from "../pages/Checkout";
+import Payment from "../pages/Payment";
 
 const NavigationMain = () => {
   return (
@@ -24,6 +25,7 @@ const NavigationMain = () => {
       <Route path="/book" element={<BookP />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/checkout" element={<Checkout />} />
+      <Route path="/payment" element={<Payment />} />
     </Routes>
   );
 }

@@ -1,0 +1,25 @@
+.tip {
+  margin: 32px 0 13px 54px;
+}
+
+.tip-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tip-text p {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tip-divider {
+  width: 100%;
+  height: 1px;
+  background: #d7d7d7;
+  margin-top: 23px;
+}

@@ -34,4 +34,11 @@ export { default as Product5 } from "./product5.png";
 export { default as Reviewbg } from "./reviewbackg.png";
 export { default as BookBack } from "./bookback.png";
 export { default as Popup } from "./popup.png";
+export { default as InfoCard } from "./infocard.png";
+export { default as DateLogo } from "./datelogo.png";
+export { default as TimeLogo } from "./timelogo.png";
+export { default as ProductL } from "./checkoutp.png";
+export { default as ProductW } from "./checkoutp2.png";
+export { default as PaymentC } from "./paymentc.png";
+export { default as Reward } from "./reward.png";
 

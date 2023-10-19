@@ -1,0 +1,82 @@
+.checkoutcard2 {
+  display: flex;
+  align-items: center;
+  /* gap: 650px; */
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.prodcard-container {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  gap: 10px;
+}
+
+.product-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.product-text p:nth-child(1) {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.product-text p:nth-child(2) {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 300;
+  width: 399.447px;
+  height: 55.033px;
+  margin-top: 5px;
+}
+
+.product-text span {
+  color: var(--color-primary);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.prodcard-price input {
+  width: 24px;
+  height: 24px;
+}
+
+.prodcard-price label {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.prodcard-price p {
+  color: var(--White, #fff);
+  font-family: var(--font-family);
+  font-size: 13.196px;
+  font-weight: 400;
+
+  border-radius: 13.196px;
+  background: #9f9399;
+  width: 84px;
+  height: auto;
+  padding: 6.598px 6.598px 6.598px 20px;
+  margin-top: 14px;
+}
+
+.divider-product {
+  width: 1288px;
+  height: 1px;
+  background: #d7d7d7;
+  margin-bottom: 41px;
+  margin-left: 54px;
+}
