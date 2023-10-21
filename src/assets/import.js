@@ -41,4 +41,8 @@ export { default as ProductL } from "./checkoutp.png";
 export { default as ProductW } from "./checkoutp2.png";
 export { default as PaymentC } from "./paymentc.png";
 export { default as Reward } from "./reward.png";
+export { default as HeaderP } from "./headerp.png";
+export { default as ProfileP } from "./profilep.png";
+export { default as MessageD } from "./dotmessage.png";
+export { default as DateP } from "./datep.png";
 

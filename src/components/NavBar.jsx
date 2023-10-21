@@ -38,7 +38,7 @@ const NavBar = () => {
           </p>
         </div>
         <div className="nova__navbar-svgs">
-          <img className="svg" src={Svg} alt="svg" />
+          <img className="svg" onClick={()=> navigate("/profile")} src={Svg} alt="svg" />
           <div className="img-cart">
             <img className="cart" src={Cart} alt="cart" />
           </div>

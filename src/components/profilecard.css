@@ -1,0 +1,54 @@
+.profile-card {
+  width: 295px;
+  margin: 57px 36px 0 37px;
+}
+
+.profile-card img {
+  width: 295.469px;
+  height: 240.948px;
+  margin-bottom: 16px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-price p {
+  color: #051014;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.card-text p {
+  color: #3d3d3d;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+
+
+}
+
+.card-date {
+  display: flex;
+  /* align-items: center; */
+  gap: 21px;
+}
+
+.card-date img {
+  width: 24px;
+  height: 24px;
+}
+
+.card-date p {
+  color: #3d3d3d;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}

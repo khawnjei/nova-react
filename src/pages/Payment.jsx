@@ -1,19 +1,24 @@
-import React from 'react'
-import TopBar from '../components/TopBar'
+import React, { useState } from "react";
+import TopBar from "../components/TopBar";
 import NavBar from "../components/NavBar";
-import PaymentContent from '../components/PaymentContent';
+import PaymentContent from "../components/PaymentContent";
+import PaymentPop from "../components/PaymentPop";
 import FooterG from "../components/FooterG";
 
 const Payment = () => {
-  return (
-    <div>
-        <TopBar/>
-        <NavBar/>
-        <PaymentContent/>
-        <FooterG/>
-      
-    </div>
-  )
-}
+  const [popup, setPopup] = useState(false);
 
-export default Payment
+  return (
+    <div
+    //  style={{width: '100%', height:'100%'}}
+     >
+      <PaymentPop trigger={popup} setTrigger={setPopup} />
+      <TopBar />
+      <NavBar />
+      <PaymentContent setPopup={setPopup} />
+      <FooterG />
+    </div>
+  );
+};
+
+export default Payment;

@@ -1,0 +1,71 @@
+.profileop {
+  width: 100%;
+  height: 859px;
+}
+
+.input-profile {
+  padding: 77px 168px 0 165px;
+}
+
+.profile-name {
+  margin-bottom: 30px;
+}
+
+.profile-name form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-name label {
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.profile-name input {
+  width: 688px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 12px 0 12px 21px;
+  outline: none;
+}
+
+.profile-name #birthdate {
+  padding-right: 12px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.profileop-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.profileop-btn button {
+  width: 182.61px;
+  height: 70.021px;
+  color: #fff;
+  background: var(--color-primary);
+  border-radius: 50%;
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}

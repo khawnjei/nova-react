@@ -11,6 +11,7 @@ import BookP from '../pages/BookP';
 import Contact from "../pages/Contact";
 import Checkout from "../pages/Checkout";
 import Payment from "../pages/Payment";
+import Profile from '../pages/Profile';
 
 const NavigationMain = () => {
   return (
@@ -26,6 +27,7 @@ const NavigationMain = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/payment" element={<Payment />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }

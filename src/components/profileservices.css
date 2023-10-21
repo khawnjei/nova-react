@@ -1,0 +1,56 @@
+.profile-services {
+  width: 1396px;
+}
+
+.navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 39px;
+}
+
+.services-navigation h4 {
+  color: var(--Black, #292929);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.naigation-slider {
+  width: 167px;
+  height: 4px;
+  background: var(--color-primary);
+  margin-top: 17px;
+}
+
+.services-card_container {
+  /* width: 1396px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  overflow: scroll;
+}
+
+.profile-services_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-services_btn button {
+  width: 182.61px;
+  height: 70.021px;
+  background: var(--color-primary);
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+
+font-family: var(--font-family);
+font-size: 20px;
+font-weight: 400;
+border-radius: 50%;
+margin-top: 32px;
+margin-bottom: 38px;
+}
