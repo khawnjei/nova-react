@@ -1,0 +1,46 @@
+.paymentinfo-card {
+  margin: 0 170px 0 189px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: ; */
+}
+
+.card-text_container {
+  display: flex;
+  align-items: center;
+  margin-top: 44px;
+  gap: 48px;
+}
+
+.card-text h4 {
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.card-text p {
+  color: var(--gray-gray, #3d3d3d);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.edit-option p {
+  color: var(--color-primary);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.paymentinfo-divider {
+  width: 1037px;
+  height: 1px;
+  opacity: 0.2;
+  background: #000;
+  margin: 44px 171px 44px 188px;
+}

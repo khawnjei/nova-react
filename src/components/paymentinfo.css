@@ -1,0 +1,15 @@
+.paymentinfo {
+  width: 1396px;
+  height: 746px;
+}
+
+.paymentinfo h3 {
+  color: var(--gray-gray, #3d3d3d);
+
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+  padding: 36px 0 47px 62px;
+}
+
+

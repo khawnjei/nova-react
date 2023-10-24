@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./profilecontent.css";
-import HeaderP from "../assets/headerp.png";
 import ProfileP from "../assets/profilep.png";
 import { MessageD } from "../assets/import";
 import ProfileOp from "./ProfileOp";
 import ProfileServices from "./ProfileServices";
+import Rewards from "./Rewards";
+import PaymentInfo from "./PaymentInfo";
 
 const ProfileContent = () => {
   const [select, setSelect] = useState({ id: 1 });
@@ -29,24 +30,24 @@ const ProfileContent = () => {
   ];
   return (
     <div className="profile">
-      <div className="headerp">
-        <img src={HeaderP} alt="" />
-      </div>
+      <div className="headerp">{/* <img src={HeaderP} alt="" /> */}</div>
+
       <div className="profile-picture_container">
-        <div className="profile-picture">
-          <div className="profile-image">
-            <img src={ProfileP} alt="" />
-          </div>
+        <div className="profile-image">
+          <img src={ProfileP} alt="" />
+        </div>
+        <div className="profile-text_container">
           <div className="profile-text">
             <h3>Profile Name</h3>
             <p>Update our photo and personal details</p>
           </div>
-        </div>
-        <div className="profile-message">
-          <img src={MessageD} alt="" />
-          <h4>Messages</h4>
+          <div className="profile-message">
+            <img src={MessageD} alt="" />
+            <h4>Messages</h4>
+          </div>
         </div>
       </div>
+
       <div className="profile-navigate">
         {profileOptions.map((item) => (
           <div
@@ -64,7 +65,15 @@ const ProfileContent = () => {
         ))}
       </div>
       <div className="main-content">
-        {select.id === 1 ? <ProfileOp /> : <ProfileServices />}
+        {select.id === 1 ? (
+          <ProfileOp />
+        ) : select.id === 2 ? (
+          <ProfileServices />
+        ) : select.id === 3 ? (
+          <Rewards />
+        ) : (
+          <PaymentInfo />
+        )}
       </div>
     </div>
   );

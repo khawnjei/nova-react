@@ -71,24 +71,30 @@ const ProfileServices = () => {
             <div
               style={{
                 background: item.id === select.id ? "#EE509C" : "transparent",
+                width:
+                  select.id === 1
+                    ? "167px"
+                    : select.id === 2
+                    ? "237px"
+                    : "240px",
               }}
               className="naigation-slider"
             />
           </div>
         ))}
       </div>
-      <div className="services-card_container">
-        {select.id === 1 ? (
-          cardData.map((item) => <ProfileCard item={item} key={item.id} />)
-        ) : select.id === 2 ? (
-          cardData.map((item) => <ProfileCard item={item} key={item.id} />)
-        ) : 
-          <UpcomingServices />
-        }
+      <div className="services-card_main">
+        <div className="services-card_container">
+          {select.id === 1 &&
+            cardData.map((item) => <ProfileCard item={item} key={item.id} />)}
+          {select.id === 2 &&
+            cardData.map((item) => <ProfileCard item={item} key={item.id} />)}
+        </div>
+        {select.id === 3 && <UpcomingServices />}
       </div>
-      <div className="profile-services_btn">
+    { select.id !== 3 ?  <div className="profile-services_btn">
         <button>Load more</button>
-      </div>
+      </div> : ""}
     </div>
   );
 };

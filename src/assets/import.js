@@ -45,4 +45,9 @@ export { default as HeaderP } from "./headerp.png";
 export { default as ProfileP } from "./profilep.png";
 export { default as MessageD } from "./dotmessage.png";
 export { default as DateP } from "./datep.png";
+export { default as Cross } from "./cross.png";
+export { default as UpLogo } from "./uplogo.png";
+export { default as Visa } from "./visa.png";
+export { default as MasterCard } from "./mastercard.png";
+export { default as Paypal } from "./paypal.png";
 

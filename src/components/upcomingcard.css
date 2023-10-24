@@ -1,0 +1,28 @@
+.checkbox-up {
+  width: 121px;
+  height: 38px;
+  border-radius: 8px;
+  background: var(--pink-fuscia-pink-fuscia-3, #ffc9e3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.checkbox-up h6{
+  color: var(--color-primary);
+
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.checkbox-up_btn p {
+  color: var(--Black, #292929);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 10px;
+  text-align: end;
+}
