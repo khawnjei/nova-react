@@ -2,17 +2,19 @@
   background: var(--color-primary);
   height: 53px;
   color: #fff;
-
+  display: flex;
+  align-items: center;
+  gap: 40px;
   margin-top: 18px;
+  width: 1728px;
 }
 
 .nova__navbar-container {
-  max-width: 1728px;
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: space-around;
-  margin-left: 157px;
+  padding-left: 157px;
 }
 
 .nova__navbar-links {
@@ -35,7 +37,10 @@
   background: var(--Black, #292929);
   color: #fff;
   font-family: var(--font-family);
-  margin-left: 46px;
+  /* margin-left: 46px; */
+  padding: 20px 0 0 7px;
+  font-size: 16px;
+  font-weight: 700;
 
   cursor: pointer;
 }
@@ -43,7 +48,7 @@
 .nova__navbar-svgs {
   cursor: pointer;
   display: flex;
-  margin-right: 241px;
+  /* margin-right: 241px; */
 }
 
 .nova__navbar-svgs .svg {
@@ -104,3 +109,64 @@ li {
   cursor: pointer;
   /* border-bottom: 1px solid #3d3d3d; */
 }
+
+.toggle-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  display: none;
+}
+
+.menu-bar{
+  width: 34px;
+  height: 34px;
+}
+
+.cart-logo {
+  background: #fff;
+  border-radius: 15px;
+
+  width: 34px;
+  height: 34px;
+  padding: 7px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nova__navbar {
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  .nova__navbar-container {
+    display: none;
+  }
+  .nova__navbar-svgs {
+    display: none;
+  }
+  .toggle-nav {
+    display: flex;
+    width: 100%;
+  }
+}
+/* 
+@media screen and (max-width: 768px) {
+  .nova__navbar {
+    width: 100%;
+  }
+  .nova__navbar-container {
+    width: 100%;
+    padding-left: 24px;
+  }
+
+  .nova__navbar-links {
+    gap: 22px;
+  }
+
+  .nova__navbar-links p {
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 200;
+  }
+} */

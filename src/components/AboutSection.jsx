@@ -9,7 +9,7 @@ const AboutSection = () => {
         <div className="nova__about-container">
           <div className="nova__about-heading">
             <h1>Beauty is in the hands of Nova beauticians!</h1>
-            <h2>The NOVA Difference</h2>
+            <p>The NOVA Difference</p>
           </div>
           <div className="nova__about-difference_container">
             <div className="nova__about-difference_percentage">

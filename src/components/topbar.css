@@ -1,30 +1,22 @@
-.nova__topbar{
-  /* margin-top: 16px; */
+.nova__topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .nova__topbar-container {
   display: flex;
-  /* justify-content: flex-start; */
   align-items: center;
-  justify-content: space-between;
-  /* height: 100%; */
-  /* margin-top: 28px; */
-  margin-left: 166px;
-
-  max-width: 1728px;
-}
-
-.nova__topbar-logo img {
-  /* max-width: 87px; */
+  padding-left: 166px;
+  gap: 73px;
 }
 
 .nova__topbar-scheduale {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
-  /* margin-left: 74px; */
 
-  gap: 59px;
+  gap: 37px;
 }
 
 .nova__topbar-scheduale p {
@@ -58,10 +50,6 @@
   cursor: pointer;
 }
 
-.nova__topbar-buttons {
-  margin-left: 112px;
-}
-
 .signup {
   width: 132px;
   height: 36px;
@@ -74,7 +62,7 @@
   border-radius: 8px;
   background: var(--color-primary);
   border: none;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   cursor: pointer;
 }
 
@@ -83,5 +71,19 @@
   height: 1px;
 
   background: #a5a5a5;
-  /* margin-top: 10px; */
 }
+
+
+@media screen and (max-width: 1024px) {
+  .nova__topbar {
+    display: none;
+  }
+}
+
+
+/* @media screen and (max-width: 768px) {
+  .nova__topbar {
+    display: none;
+  }
+} */
+

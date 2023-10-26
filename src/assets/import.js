@@ -50,4 +50,5 @@ export { default as UpLogo } from "./uplogo.png";
 export { default as Visa } from "./visa.png";
 export { default as MasterCard } from "./mastercard.png";
 export { default as Paypal } from "./paypal.png";
+export { default as MenuBar } from "./menubar.png";
 

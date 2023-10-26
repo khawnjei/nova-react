@@ -12,6 +12,11 @@
 
 .nova__about-heading {
   margin-top: 44px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 29px;
 }
 
 .nova__about-heading h1 {
@@ -22,15 +27,14 @@
   font-weight: 700;
 }
 
-.nova__about-heading h2 {
+.nova__about-heading p {
   color: var(--Black, #292929);
 
   font-family: var(--font-family);
   font-size: 36px;
   font-weight: 700;
 
-  margin-left: 335px;
-  margin-top: 26px;
+  /* padding-left: 335px; */
 }
 
 .nova__about-difference_container {
@@ -39,7 +43,7 @@
   align-items: center;
 }
 
-.nova__about-container img{
+.nova__about-container img {
   cursor: pointer;
 }
 
@@ -80,7 +84,6 @@
   margin-top: 52px;
 }
 
-
 .nova__about-content_text h3 {
   color: #171d1c;
 
@@ -109,4 +112,143 @@
   font-size: 20px;
   font-weight: 400;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .nova__about {
+    width: 100%;
+  }
+  .nova__about-container {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nova__about-difference_container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 11px;
+    flex-wrap: wrap;
+  }
+
+  .nova__about-heading h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+  }
+  .nova__about-heading h2 {
+    font-size: 24px;
+    padding-right: 376px;
+  }
+  .nova__about-difference_percentage h5 {
+    font-size: 40px;
+  }
+  .nova__about-difference_percentage p {
+    font-size: 18px;
+  }
+  .nova__about-content {
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  .nova__about-content_container {
+    display: flex;
+    gap: 35px;
+  }
+  .nova__about-content_text {
+    flex-wrap: wrap;
+  }
+
+  .nova__about-content_text h3 {
+    font-size: 27px;
+  }
+  .nova__about-content_text p {
+    font-size: 17px;
+    padding-top: 5px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__about {
+    width: 100%;
+  }
+  .nova__about-heading h1 {
+    font-size: 23px;
+  }
+  .nova__about-heading p {
+    font-size: 17px;
+  }
+  .nova__about-difference_container {
+    display: flex;
+    gap: 59px;
+    flex-wrap: wrap;
+  }
+  .nova__about-difference_percentage h5 {
+    font-size: 30px;
+  }
+  .nova__about-difference_percentage p {
+    font-size: 15px;
+  }
+  .nova__about-content {
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+  .nova__about-content_container {
+    display: flex;
+    align-items: center;
+  }
+  .nova__about-content_container img {
+    width: 250px;
+  }
+  .nova__about-content_container h3 {
+    font-size: 22px;
+  }
+  .nova__about-content_container p {
+    font-size: 17px;
+  }
+  .nova__about-content_container span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova__about {
+    width: 100%;
+  }
+
+  .nova__about-heading h1 {
+    font-size: 20px;
+    padding-left: 11px;
+  }
+  .nova__about-heading p {
+    font-size: 16px;
+  }
+
+  .nova__about-difference_percentage h5 {
+    font-size: 23px;
+  }
+  .nova__about-difference_percentage p {
+    font-size: 13px;
+  }
+  .nova__about-content {
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .nova__about-content_container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+   .nova__about-content_container h3 {
+    font-size: 19px;
+  }
+  .nova__about-content_container p {
+    font-size: 15px;
+  }
+  .nova__about-content_container span {
+    font-size: 15px;
+  }
 }
