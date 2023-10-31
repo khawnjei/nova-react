@@ -71,3 +71,128 @@
   height: 36px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .productCard {
+    width: 346px;
+    margin-bottom: 48px;
+  }
+  .productCard img {
+    width: 376px;
+    height: 300px;
+  }
+  .product-heading h4 {
+    font-size: 20px;
+  }
+  .product-heading p {
+    font-size: 18px;
+  }
+  .productCard p {
+    font-size: 18px;
+  }
+  .product-pricing h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .product-pricing button {
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 6px;
+    width: 126px;
+    height: 33px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .productCard {
+    width: 326px;
+    margin: 0 0 48px 13px;
+  }
+
+  .productCard img {
+    width: 341px;
+    height: 270px;
+  }
+  .product-heading h4 {
+    font-size: 17px;
+  }
+  .product-heading p {
+    font-size: 16px;
+  }
+  .productCard p {
+    font-size: 15px;
+  }
+  .product-pricing h4 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .product-pricing button {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .productCard {
+    width: 326px;
+  }
+
+  .productCard img {
+    width: 361px;
+    height: 260px;
+  }
+  .product-heading h4 {
+    font-size: 15px;
+  }
+  .product-heading p {
+    font-size: 14px;
+  }
+  .productCard p {
+    font-size: 14px;
+  }
+  .product-pricing h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .product-pricing button {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .productCard {
+    width: 326px;
+  }
+
+  .productCard img {
+    width: 361px;
+    height: 260px;
+  }
+  .product-heading h4 {
+    font-size: 15px;
+  }
+  .product-heading p {
+    font-size: 14px;
+  }
+  .productCard p {
+    font-size: 14px;
+  }
+  .product-pricing h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .product-pricing button {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+  }
+}

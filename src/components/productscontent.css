@@ -1,22 +1,75 @@
 .nova__products {
-  max-width: 1728px;
+  max-width: 100%;
   margin: 24px;
   margin-left: 166px;
   margin-right: 166px;
-  
 }
 
 .nova__products h2 {
   color: #171d1c;
 
-font-family: var(--font-family);
+  font-family: var(--font-family);
   font-size: 36px;
   font-weight: 700;
 }
 
-.nova__products-container{
+.nova__products-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nova__products {
+    width: 100%;
+    margin: 0;
+  }
+
+  .nova__products h2 {
+    font-size: 30px;
+    padding: 16px 0 0 166px;
+  }
+
+  .nova__products-container {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__products h2 {
+    font-size: 26px;
+    padding: 16px 0 0 121px;
+  }
+  .nova__products-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova__products h2 {
+    font-size: 23px;
+    padding: 16px 0 0 100px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__products h2 {
+    font-size: 20px;
+    padding: 16px 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova__products h2 {
+    font-size: 17px;
+    padding: 16px 0 0 60px;
+  }
 }

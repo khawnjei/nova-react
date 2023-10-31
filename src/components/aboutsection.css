@@ -181,10 +181,16 @@
     font-size: 17px;
   }
   .nova__about-difference_container {
-    display: flex;
+    /* display: flex; */
     gap: 59px;
+    /* flex-wrap: wrap; */
+  }
+  .nova__about-difference_percentage {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
+
   .nova__about-difference_percentage h5 {
     font-size: 30px;
   }
@@ -193,12 +199,14 @@
   }
   .nova__about-content {
     padding-top: 20px;
-    flex-wrap: wrap;
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
   .nova__about-content_container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
   .nova__about-content_container img {
     width: 250px;
@@ -226,6 +234,11 @@
   .nova__about-heading p {
     font-size: 16px;
   }
+  .nova__about-difference_percentage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
   .nova__about-difference_percentage h5 {
     font-size: 23px;
@@ -242,7 +255,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-   .nova__about-content_container h3 {
+  .nova__about-content_container h3 {
     font-size: 19px;
   }
   .nova__about-content_container p {
@@ -250,5 +263,51 @@
   }
   .nova__about-content_container span {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__about {
+    width: 100%;
+    padding-left: 0;
+  }
+  .nova__about-content_container h3 {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  .nova__about-content_container p {
+    font-size: 13px;
+    padding-left: 5px;
+  }
+  .nova__about-content_container span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova__about {
+    width: 100%;
+    padding-left: 0;
+  }
+  .nova__about-difference_container {
+    padding-left: 11px;
+ 
+  }
+  .nova__about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .nova__about-content_container h3 {
+    font-size: 15px;
+    padding-left: 33px;
+  }
+  .nova__about-content_container p {
+    font-size: 13px;
+    padding-left: 33px;
+  }
+  .nova__about-content_container span {
+    font-size: 13px;
   }
 }

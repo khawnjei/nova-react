@@ -41,3 +41,60 @@
   font-weight: 400;
   padding: 12px 0 12px 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .book-input h3 {
+    font-size: 27px;
+  }
+  .start-option {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .book-input_container .start-option p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .book-input h3 {
+    font-size: 23px;
+  }
+  .book-input_container .start-option p {
+    font-size: 13px;
+    padding: 16px 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .book-input h3 {
+    font-size: 21px;
+  }
+  .book-input_container .start-option p {
+    font-size: 12px;
+    padding: 11px 25px 0 15px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .book-input h3 {
+    font-size: 18px;
+  }
+  .book-input_container .start-option p {
+    font-size: 11px;
+    padding: 11px 25px 0 12px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .book-input h3 {
+    font-size: 15px;
+  }
+  .start-option p {
+    font-size: 10px;
+  }
+  .book-input_container .start-option p {
+    font-size: 10px;
+    padding: 14px 25px 0 12px;
+  }
+}

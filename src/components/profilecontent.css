@@ -3,8 +3,8 @@
   width: 1396px;
 }
 
-.headerp{
-  background-image: url('../assets/headerp.png');
+.headerp {
+  background-image: url("../assets/headerp.png");
 
   width: 1396px;
   height: 313px;
@@ -109,9 +109,6 @@
 
 .main-content {
   width: 100%;
-  /* height: 859px; */
   border-radius: 16px;
   background: var(--pink-fuscia-pink-fuscia-4, #ffeff7);
 }
-
-

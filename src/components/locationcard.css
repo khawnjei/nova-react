@@ -47,3 +47,115 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .nova__location-content h4 {
+    font-size: 20px;
+  }
+  .nova__location-content p {
+    font-size: 17px;
+  }
+
+  .nova__location-content button {
+    width: 123px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__location-content {
+    margin: 10px 0;
+    width: 280px;
+    padding: 12px 14px;
+  }
+  .nova__location-content img {
+    width: 249px;
+  }
+  .nova__location-content h4 {
+    font-size: 18px;
+  }
+  .nova__location-content p {
+    font-size: 15px;
+    padding-right: 19px;
+  }
+
+  .nova__location-content button {
+    width: 113px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova__location-content {
+    margin: 10px 0;
+    width: 254px;
+    padding: 12px 14px;
+  }
+  .nova__location-content img {
+    width: 220px;
+  }
+  .nova__location-content h4 {
+    font-size: 15px;
+  }
+  .nova__location-content p {
+    font-size: 13px;
+    padding-right: 48px;
+  }
+
+  .nova__location-content button {
+    width: 93px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__location-content {
+    margin: 10px 0;
+    width: 238px;
+    padding: 12px 6px;
+  }
+  .nova__location-content img {
+    width: 211px;
+  }
+  .nova__location-content h4 {
+    font-size: 13px;
+  }
+  .nova__location-content p {
+    font-size: 11px;
+    padding-bottom: 1px;
+  }
+
+  .nova__location-content button {
+    width: 93px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova__location-content {
+    margin: 10px 0;
+    width: 210px;
+    padding: 12px 6px;
+  }
+  .nova__location-content img {
+    width: 190px;
+  }
+  .nova__location-content h4 {
+    font-size: 13px;
+  }
+  .nova__location-content p {
+    font-size: 11px;
+    padding-bottom: 1px;
+    padding-right: 77px;
+  }
+
+  .nova__location-content button {
+    width: 83px;
+    height: 27px;
+    font-size: 10px;
+  }
+}

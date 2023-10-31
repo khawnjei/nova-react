@@ -24,7 +24,6 @@
 
 .input-container input {
   display: block;
-
   width: 651px;
   height: 36px;
   margin-top: 3px;
@@ -40,8 +39,8 @@
   border: 1px solid var(--color-primary);
   outline: none;
 }
-.input-email-section #info-number{
-    appearance: none;
+.input-email-section #info-number {
+  appearance: none;
 }
 
 .input-email-section .info-number::-webkit-inner-spin-button,
@@ -55,8 +54,6 @@
   display: flex;
   gap: 24px;
 }
-
-
 
 .input-address {
   margin-left: 38px;
@@ -141,14 +138,233 @@
   width: 173.61px;
   height: 50.021px;
 
-  color: #FFF;
+  color: #fff;
 
-font-family: var(--font-family);
-font-size: 20px;
-font-weight: 400;
-background: var(--color-primary);
-border: none;
-border-radius: 50%;
-cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+  .nova__myinfo {
+    width: 100%;
+  }
+  .nova__myinfo h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .input-name-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .input-container label {
+    font-size: 17px;
+  }
+  .input-container input {
+    width: 391px;
+    height: 36px;
+    font-size: 12px;
+  }
+
+  .input-address {
+    padding-right: 103px;
+  }
+  .input-address label {
+    font-size: 17px;
+  }
+
+  .input-address input {
+    width: 100%;
+    font-size: 12px;
+  }
+  .message-input {
+    padding-right: 103px;
+  }
+  .message-input label {
+    font-size: 17px;
+  }
+  .message-input textarea {
+    width: 100%;
+
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .message-input p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__myinfo h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .input-container label {
+    font-size: 15px;
+  }
+  .input-container input {
+    width: 391px;
+    height: 34px;
+    font-size: 11px;
+  }
+
+  .input-address {
+    padding-right: 153px;
+  }
+  .input-address label {
+    font-size: 15px;
+  }
+
+  .input-address input {
+    width: 100%;
+    font-size: 11px;
+    width: 391px;
+  }
+  .message-input {
+    padding-right: 153px;
+  }
+  .message-input label {
+    font-size: 15px;
+  }
+  .message-input textarea {
+    font-size: 11px;
+    font-weight: 400;
+    width: 391px;
+  }
+  .message-input p {
+    font-size: 12px;
+  }
+  .myinfo-button button {
+    width: 160px;
+    height: 46px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova__myinfo h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .input-container label {
+    font-size: 14px;
+  }
+  .input-container input {
+    width: 100%;
+    height: 33px;
+    font-size: 10px;
+  }
+
+  .input-address label {
+    font-size: 14px;
+  }
+
+  .input-address input {
+    font-size: 10px;
+  }
+  .message-input label {
+    font-size: 14px;
+  }
+  .message-input textarea {
+    font-size: 10px;
+  }
+  .message-input p {
+    font-size: 11px;
+  }
+  .myinfo-button button {
+    width: 150px;
+    height: 43px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__myinfo h3 {
+    font-size: 16px;
+  }
+  .lastname-input {
+    padding-right: 39px;
+  }
+  .input-container label {
+    font-size: 12px;
+  }
+  .input-container input {
+    width: 251px;
+    height: 31px;
+    font-size: 9px;
+  }
+
+  .input-address label {
+    font-size: 12px;
+  }
+
+  .input-address input {
+    font-size: 9px;
+    width: 251px;
+  }
+  .message-input label {
+    font-size: 12px;
+  }
+  .message-input textarea {
+    font-size: 9px;
+    width: 251px;
+  }
+  .message-input p {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  .myinfo-button button {
+    width: 126px;
+    height: 38px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova__myinfo h3 {
+    font-size: 12px;
+  }
+  .lastname-input {
+    padding-right: 39px;
+  }
+  .input-container label {
+    font-size: 11px;
+  }
+  .input-container input {
+    width: 221px;
+    height: 28px;
+    font-size: 8px;
+  }
+
+  .input-address label {
+    font-size: 11px;
+  }
+
+  .input-address input {
+    width: 221px;
+    font-size: 8px;
+  }
+  .message-input label {
+    font-size: 11px;
+  }
+  .message-input textarea {
+    font-size: 8px;
+    width: 221px;
+  }
+  .message-input p {
+    font-size: 9px;
+    line-height: 1.2;
+  }
+  .myinfo-button button {
+    width: 102px;
+    height: 30px;
+    font-size: 13px;
+  }
+}

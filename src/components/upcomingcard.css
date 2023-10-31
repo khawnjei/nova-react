@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.checkbox-up h6{
+.checkbox-up h6 {
   color: var(--color-primary);
 
   font-family: var(--font-family);

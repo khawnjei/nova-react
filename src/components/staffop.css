@@ -25,3 +25,48 @@
   font-weight: 400;
   padding: 12px 0 12px 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .nova__staffop h3 {
+    font-size: 27px;
+  }
+  .start-option p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__staffop h3 {
+    font-size: 23px;
+  }
+  .start-option p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova__staffop h3 {
+    font-size: 20px;
+  }
+  .start-option p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__staffop h3 {
+    font-size: 18px;
+  }
+  .start-option p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__staffop h3 {
+    font-size: 15px;
+  }
+  .start-option p {
+    font-size: 16px;
+  }
+}

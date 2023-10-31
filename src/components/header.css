@@ -7,10 +7,6 @@
 .nova__header-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* gap: 390px; */
-  /* height: 100%; */
   max-width: 1728px;
   margin-top: 67px;
 }

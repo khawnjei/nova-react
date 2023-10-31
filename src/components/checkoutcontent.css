@@ -1,6 +1,5 @@
 .nova__checkout {
   margin: 0 0 77px 166px;
-  /* width: 1728px; */
 }
 
 .nova__checkout h2 {
@@ -14,7 +13,6 @@
 
 .service-main {
   max-width: 1396px;
-  /* height: 1226px; */
   border-radius: 16px;
   background: var(--pink-fuscia-pink-fuscia-4, #ffeff7);
   margin-top: 39px;

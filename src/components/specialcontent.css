@@ -4,7 +4,6 @@
   margin-right: 166px;
   margin-top: 28px;
   margin-bottom: 62px;
-  
 }
 
 .nova-special h2 {
@@ -15,8 +14,63 @@
   font-weight: 700;
 }
 
-.nova-special_container{
+.nova-special_container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .nova-special {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 28px;
+    margin-bottom: 62px;
+  }
+  .nova-special h2 {
+    font-size: 31px;
+    padding-left: 100px;
+  }
+  .nova-special_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova-special h2 {
+    padding-left: 55px;
+    font-size: 28px;
+  }
+  .nova-special_container {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova-special h2 {
+    padding-left: 65px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova-special h2 {
+    padding-left: 65px;
+    font-size: 26px;
+  }
+  .nova-special_container {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova-special h2 {
+    padding-left: 49px;
+    font-size: 23px;
+  }
 }

@@ -92,15 +92,14 @@
   background: #fff;
 }
 
-.image{
+.image {
   display: flex;
- width: 100%;
-   justify-content: center;
+  width: 100%;
+  justify-content: center;
   height: 100%;
-  /* background: #292929; */
 }
 
-.image img{
+.image img {
   padding-top: 64px;
   cursor: pointer;
 }

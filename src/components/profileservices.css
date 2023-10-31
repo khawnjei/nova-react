@@ -26,10 +26,8 @@
 }
 
 .services-card_container {
-  /* width: 1396px; */
   display: flex;
   align-items: center;
-  /* justify-content: space-evenly; */
   overflow: hidden;
 }
 

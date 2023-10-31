@@ -43,7 +43,6 @@
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
-
   border-radius: 8px;
   background: var(--pink-fuscia-pink-fuscia-3, #ffc9e3);
   border: none;
@@ -58,11 +57,9 @@
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
-
   border-radius: 8px;
   background: var(--color-primary);
   border: none;
-  /* margin-left: 16px; */
   cursor: pointer;
 }
 
@@ -73,17 +70,32 @@
   background: #a5a5a5;
 }
 
-
 @media screen and (max-width: 1024px) {
   .nova__topbar {
     display: none;
   }
 }
 
-
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .nova__topbar {
     display: none;
   }
-} */
+}
 
+@media screen and (max-width: 540px) {
+  .nova__topbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__topbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova__topbar {
+    display: none;
+  }
+}

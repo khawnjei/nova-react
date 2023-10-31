@@ -35,3 +35,61 @@
   font-weight: 700;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .nova__serviceCard {
+    width: 461px;
+  }
+  .nova__serviceCard img {
+    width: 350px;
+    height: 300px;
+  }
+  .nova__serviceCard h4 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .nova__serviceCard p {
+    font-size: 17px;
+    font-weight: 300;
+    width: 350px;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__serviceCard {
+    width: 354px;
+  }
+  .nova__serviceCard img {
+    width: 300px;
+    height: 275px;
+  }
+  .nova__serviceCard h4 {
+    font-size: 19px;
+  }
+  .nova__serviceCard p {
+    font-size: 15px;
+    font-weight: 500;
+    width: 307px;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__serviceCard {
+    width: 337px;
+  }
+  .nova__serviceCard img {
+    width: 288px;
+    height: 259px;
+  }
+  .nova__serviceCard h4 {
+    font-size: 17px;
+  }
+  .nova__serviceCard p {
+    font-size: 14px;
+    font-weight: 500;
+    width: 289px;
+    line-height: 1.3;
+  }
+}

@@ -1,7 +1,6 @@
 .nova__footer {
   display: flex;
   background: var(--color-primary);
-  /* overflow: initial; */
   margin-top: 64px;
   flex-direction: column;
 }
@@ -47,7 +46,6 @@
   flex-direction: column;
   gap: 45px;
 }
-
 
 .name {
   outline: none;
@@ -219,7 +217,7 @@
   font-family: var(--font-family);
   font-size: 25px;
   font-weight: 700;
-  line-height: 105.469%; /* 26.367px */
+  line-height: 105.469%; 
   letter-spacing: 2.25px;
 }
 
@@ -232,7 +230,7 @@
   font-family: var(--font-family);
   font-size: 19px;
   font-weight: 400;
-  line-height: 186.469%; /* 27.829px */
+  line-height: 186.469%; 
 
   cursor: pointer;
 }
@@ -264,7 +262,7 @@
   font-family: var(--font-family);
   font-size: 19px;
   font-weight: 400;
-  line-height: 146.469%; /* 27.829px */
+  line-height: 146.469%; 
 }
 
 .nova__footer-line {
@@ -283,7 +281,6 @@
 .line-pra {
   color: var(--White, #fff);
   text-align: center;
-  /* Paragraph/Regular */
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
@@ -304,7 +301,7 @@
   font-size: 23px;
   font-style: normal;
   font-weight: 500;
-  line-height: 146.469%; /* 33.688px */
+  line-height: 146.469%; 
 }
 .emaill p {
   margin-top: 5px;
@@ -322,15 +319,15 @@
   font-size: 23px;
   font-style: normal;
   font-weight: 500;
-  line-height: 146.469%; /* 33.688px */
+  line-height: 146.469%;
 }
 
-.phone p{
+.phone p {
   margin-top: 5px;
 }
 
-.address{
-   display: flex;
+.address {
+  display: flex;
   align-items: start;
   gap: 5px;
 }
@@ -341,10 +338,9 @@
   font-size: 23px;
   font-style: normal;
   font-weight: 500;
-  line-height: 146.469%; /* 33.688px */
+  line-height: 146.469%; 
 }
 
-.address p{
+.address p {
   margin-top: 5px;
 }
-

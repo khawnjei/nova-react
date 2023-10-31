@@ -4,8 +4,43 @@ import "./navbar.css";
 import { useNavigate } from "react-router-dom";
 // import ProfileOp from "./ProfileOp";
 
+const Menu = () => {
+  const navigate = useNavigate();
+  return (
+    <>
+      <p onClick={() => navigate("/")}>
+        <a href="#home">Home</a>
+      </p>
+      <p onClick={() => navigate("/about")}>
+        <a href="#about">About Us</a>
+      </p>
+      <p onClick={() => navigate("/locations")}>
+        <a href="#locations">Locations</a>
+      </p>
+      <p onClick={() => navigate("/services")}>
+        <a href="#services">Services</a>
+      </p>
+      <p onClick={() => navigate("/specials")}>
+        <a href="#specials">Specials</a>
+      </p>
+      <p onClick={() => navigate("/products")}>
+        <a href="#products">Products</a>
+      </p>
+      <p onClick={() => navigate("/reviews")}>
+        <a href="#reviews">Reviews</a>
+      </p>
+      <p onClick={() => navigate("/book")} className="book">
+        <a href="#booknow">Book Now</a>
+      </p>
+      <p onClick={() => navigate("/contact")}>
+        <a href="#contact">Contact Us</a>
+      </p>
+    </>
+  );
+};
+
 const NavBar = () => {
-  // const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const optionData = [
     {
       id: 1,
@@ -30,40 +65,13 @@ const NavBar = () => {
   ];
   const [dropdown, setDropdown] = useState(false);
   // const [select, setSelect] = useState({ id: 1 });
-
   const navigate = useNavigate();
 
   return (
     <nav className="nova__navbar">
       <div className="nova__navbar-container">
         <div className="nova__navbar-links">
-          <p onClick={() => navigate("/")}>
-            <a href="#home">Home</a>
-          </p>
-          <p onClick={() => navigate("/about")}>
-            <a href="#about">About Us</a>
-          </p>
-          <p onClick={() => navigate("/locations")}>
-            <a href="#locations">Locations</a>
-          </p>
-          <p onClick={() => navigate("/services")}>
-            <a href="#services">Services</a>
-          </p>
-          <p onClick={() => navigate("/specials")}>
-            <a href="#specials">Specials</a>
-          </p>
-          <p onClick={() => navigate("/products")}>
-            <a href="#products">Products</a>
-          </p>
-          <p onClick={() => navigate("/reviews")}>
-            <a href="#reviews">Reviews</a>
-          </p>
-          <p onClick={() => navigate("/book")} className="book">
-            <a href="#booknow">Book Now</a>
-          </p>
-          <p onClick={() => navigate("/contact")}>
-            <a href="#contact">Contact Us</a>
-          </p>
+          <Menu />
         </div>
       </div>
       <div className="nova__navbar-svgs">
@@ -98,22 +106,20 @@ const NavBar = () => {
         </div>
       </div>
 
-    
       <div className="toggle-nav">
-        <img
-        className="menu-bar"
-          // onClick={() => setToggle(!toggle)}
-          src={MenuBar}
-          alt="menubar"
-        />
+        <img onClick={() => setToggle(!toggle)} src={MenuBar} alt="menubar" />
         <img src={Logo} alt="logo" />
         <div className="cart-logo">
           <img src={Cart} alt="cart" />
         </div>
+        {toggle && (
+          <div className="menu-bar_container">
+            <div className="menu-bar">
+              <Menu />
+            </div>
+          </div>
+        )}
       </div>
-
-      
-    
     </nav>
   );
 };

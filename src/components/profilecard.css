@@ -30,13 +30,10 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 5px;
-
-
 }
 
 .card-date {
   display: flex;
-  /* align-items: center; */
   gap: 21px;
 }
 

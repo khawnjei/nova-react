@@ -6,7 +6,7 @@
   height: 396px;
   background: #fff;
   border-radius: 36px;
-margin: 233px 420px 857px 419px;
+  margin: 233px 420px 857px 419px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,7 +50,6 @@ margin: 233px 420px 857px 419px;
   height: 60.021px;
 
   color: #fff;
-
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
@@ -58,6 +57,4 @@ margin: 233px 420px 857px 419px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  
 }
-

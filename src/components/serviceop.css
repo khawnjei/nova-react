@@ -24,3 +24,48 @@
   font-weight: 400;
   padding: 12px 0 12px 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .nova__servicesop h3 {
+    font-size: 26px;
+  }
+  .start-option p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nova__servicesop h3 {
+    font-size: 22px;
+  }
+  .start-option p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nova__servicesop h3 {
+    font-size: 20px;
+  }
+  .start-option p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nova__servicesop h3 {
+    font-size: 18px;
+  }
+  .start-option p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nova__servicesop h3 {
+    font-size: 16px;
+  }
+  .start-option p {
+    font-size: 14px;
+  }
+}
